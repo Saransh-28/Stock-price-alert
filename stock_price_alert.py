@@ -26,7 +26,8 @@ while True:
                                     title='price alert',
                                     msg = f'{alert_list[0]} is below the set thershold',
                                     duration='long',
-                                    icon=r'C:\Users\saran\Desktop\python\python\practice\random project\image.jpg')
+#                                         Enter the location of icon
+                                    icon=r'location of icon')
             notification.set_audio(audio.Reminder,loop=False)
             notification.show() 
 
